@@ -18,6 +18,6 @@ public class HealthLabel : MonoBehaviour
 
     private void ShowHealth(float health)
     {
-        _tmpText.text = health + " / 100";
+        _tmpText.text = $"{health} / {_health.MaxHealth}";
     }
 }
